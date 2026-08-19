@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Square Dodge Game</title>
+
+<style>
+body{
+    margin:0;
+    background:#cb8df5;
+    font-family:Arial,sans-serif;
+    text-align:center;
+}
+
+h1{
+    color:white;
+}
+
+#gameArea{
+    width:800px;
+    height:400px;
+    background:#f7f4f4;
+    margin:auto;
+    border:4px ;
+    position:relative;
+    overflow:hidden;
+}
+
+
+#player{
+    width:40px;
+    height:40px;
+    background:rgb(252, 159, 159);
+    position:absolute;
+    left:20px;
+    top:180px;
+}
+
+#enemy{
+    position:absolute;
+    left:800px;
+    top:180px;
+    font-size:20px;
+    color:rgb(17, 1, 1);
+    font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>SQUARE DODGE GAME</h1>
+
+<div id="gameArea">
+
+    <div id="score">Score : 0</div>
+
+    <div id="player"></div>
+
+    <div id="enemy">
+       < 
+    </div>
+
+</div>
+
+<script src="capstone.js"></script>
+
+</body>
+</html>
+
+
